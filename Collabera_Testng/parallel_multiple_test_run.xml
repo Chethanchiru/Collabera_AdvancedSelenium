@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test1">           <!-- Test runner -->
+    <classes>
+      <class name="testNG_Basics.TC_Accounts_010"/>
+      <class name="testNG_Basics.TC_Loan_013"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">            <!-- Test runner -->
+    <classes>
+      <class name="testNG_Basics.TC_Loan_012"/>
+      <class name="testNG_Basics.TC_Loan_011"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- when we have multiple test runner then at the suite level or suite tag we will mention parallel="tests" bcz it behaves as global and if we give at test level it will behave like local to that particular test suite-->
+<!-- This method is known as distributed parallel execution -->
+<!-- Test runner cannot have the same name. it will throw error -->

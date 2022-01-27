@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>		<!-- xml file is called as driver file -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG_Basics.TC_Accounts_010"/>
+      <class name="testNG_Basics.TC_Loan_013"/>
+      <class name="testNG_Basics.TC_Loan_012"/>
+      <class name="testNG_Basics.TC_Loan_011"/>
+      <class name="testNG_Basics.TC_Accounts_007"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+<!-- Batch execution means running a group of automation scripts in only one click or in a batch -->
+<!-- it will run the test cases in sequential order means one after the other-->

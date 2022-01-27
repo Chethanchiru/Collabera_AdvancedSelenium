@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="RegressionTest"></include>
+			<include name="SmokeTest"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testNG_Basics.TC_Accounts_010" /> 		<!-- AdhocTest demo.actitime.com -->
+			<class name="testNG_Basics.TC_Loan_013" />			<!-- SmokeTest , RegressionTest , flipkart --> <!-- Test case is not running -->
+			<class name="testNG_Basics.TC_Loan_012" />			<!-- RegressionTest , instagram -->
+			<class name="testNG_Basics.TC_Loan_011" />			<!-- SmokeTest amazon -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- if we have multiple test cases inside one testNG class and if we are running groups related to Smoke and there is only one smoke TC -->
+<!-- And remaining TC dont have any groups then entire testNG class will run whether it belongs to smoke or not.  -->
+<!-- This is the disadvantage  of multiple test case. so in real we will not use multiple test case-->

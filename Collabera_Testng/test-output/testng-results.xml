@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Contact List is not displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Mail merge template page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[mail should be created as contact module]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24915" started-at="2022-01-25T23:06:27 IST" finished-at="2022-01-25T23:06:52 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24915" started-at="2022-01-25T23:06:27 IST" finished-at="2022-01-25T23:06:52 IST">
+      <class name="vTigerMiniProject.TC_37">
+        <test-method status="PASS" signature="createContact()[pri:0, instance:vTigerMiniProject.TC_37@cd2dae5]" name="createContact" duration-ms="24878" started-at="2022-01-25T23:06:27 IST" finished-at="2022-01-25T23:06:52 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Home page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Contact List is not displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Mail merge template page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[mail should be created as contact module]]>
+            </line>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+      </class> <!-- vTigerMiniProject.TC_37 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
